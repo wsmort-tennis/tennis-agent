@@ -46,7 +46,7 @@ kalender:
   # Heldagsbegivenheder (fx fødselsdage) blokerer ikke for tennis
   ignorer_heldagsbegivenheder: true
   # Kalendere i iCloud der ikke skal tælle som "optaget"
-  ignorer_kalendere: ["Ledige tennisbaner"]
+  ignorer_kalendere: ["Ledige tennisbaner", "Arbejde"]
   # Kalendere hvor buffer-reglen ikke gælder (fx tennistræning i hallen).
   # Tiden må gerne ligge lige op ad, men aldrig overlappe.
   uden_buffer_kalendere: ["Træning"]
