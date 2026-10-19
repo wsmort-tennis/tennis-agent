@@ -1,0 +1,53 @@
+# ─────────────────────────────────────────────────────────────
+#  Tennisbane-agentens indstillinger
+#  Du kan ændre alt her direkte på GitHub (blyant-ikonet).
+#  Linjer der starter med # er kommentarer og bliver ignoreret.
+#  Tider skrives altid som "TT:MM" i dansk tid.
+# ─────────────────────────────────────────────────────────────
+
+hal:
+  navn: Rundforbi Tennishal
+  url: https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+  adresse: Rundforbivej 140 B, 2850 Nærum
+
+filtre:
+  # Hvor mange dage frem agenten kigger (hallen viser ca. 4 uger)
+  dage_frem: 28
+
+  # Korteste spilletid du vil have foreslået (minutter)
+  minimum_varighed_min: 60
+
+  # Fri tid der skal være i din kalender før og efter spillet (minutter)
+  buffer_min: 30
+
+  # Hvilke ugedage du vil spille. Fjern dem du ikke vil have med.
+  ugedage: [man, tir, ons, tor, fre, lør, søn]
+
+  # Tidligste starttid og seneste sluttid, du overhovedet vil spille
+  tidligste_start: "05:00"
+  seneste_slut: "23:30"
+
+  # Tidsrum hvor du ALDRIG kan spille (en bane der rører tidsrummet frasorteres)
+  blokeret:
+    hverdage:
+      - ["10:00", "14:00"]
+    weekend: []
+
+# Prime time = de tider du helst vil have. Kun de giver en push-besked.
+# Resten kommer stadig i kalenderen og tabellen.
+# Banen skal ligge HELT inde i et af tidsrummene.
+prime_time:
+  hverdage:
+    - ["17:00", "22:00"]
+  weekend:
+    - ["09:00", "17:00"]
+
+kalender:
+  # Heldagsbegivenheder (fx fødselsdage) blokerer ikke for tennis
+  ignorer_heldagsbegivenheder: true
+  # Kalendere i iCloud der ikke skal tælle som "optaget"
+  ignorer_kalendere: ["Ledige tennisbaner"]
+
+notifikation:
+  # Send kun besked om tider, der starter mindst så mange timer ude i fremtiden
+  min_timer_frem: 2
