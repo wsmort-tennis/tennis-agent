@@ -24,13 +24,13 @@ filtre:
   ugedage: [man, tir, ons, tor, fre, lør, søn]
 
   # Tidligste starttid og seneste sluttid, du overhovedet vil spille
-  tidligste_start: "05:00"
+  tidligste_start: "06:00"
   seneste_slut: "23:30"
 
   # Tidsrum hvor du ALDRIG kan spille (en bane der rører tidsrummet frasorteres)
   blokeret:
     hverdage:
-      - ["10:00", "14:00"]
+      - ["11:00", "13:00"]
     weekend: []
 
 # Prime time = de tider du helst vil have. Kun de giver en push-besked.
@@ -38,9 +38,9 @@ filtre:
 # Banen skal ligge HELT inde i et af tidsrummene.
 prime_time:
   hverdage:
-    - ["17:00", "22:00"]
+    - ["15:00", "21:00"]
   weekend:
-    - ["09:00", "17:00"]
+    - ["09:00", "20:00"]
 
 kalender:
   # Heldagsbegivenheder (fx fødselsdage) blokerer ikke for tennis
