@@ -30,7 +30,7 @@ filtre:
   # Tidsrum hvor du ALDRIG kan spille (en bane der rører tidsrummet frasorteres)
   blokeret:
     hverdage:
-      - ["11:00", "13:00"]
+      - ["11:30", "12:30"]
     weekend: []
 
 # Prime time = de tider du helst vil have. Kun de giver en push-besked.
@@ -38,15 +38,20 @@ filtre:
 # Banen skal ligge HELT inde i et af tidsrummene.
 prime_time:
   hverdage:
-    - ["15:00", "21:00"]
+    - ["14:00", "22:00"]
   weekend:
-    - ["09:00", "20:00"]
+    - ["09:00", "19:00"]
 
 kalender:
   # Heldagsbegivenheder (fx fødselsdage) blokerer ikke for tennis
   ignorer_heldagsbegivenheder: true
   # Kalendere i iCloud der ikke skal tælle som "optaget"
   ignorer_kalendere: ["Ledige tennisbaner"]
+  # Kalendere hvor buffer-reglen ikke gælder (fx tennistræning i hallen).
+  # Tiden må gerne ligge lige op ad, men aldrig overlappe.
+  uden_buffer_kalendere: ["Træning"]
+  # Titel på begivenhederne i kalenderen "Ledige tennisbaner"
+  titel: "Ledig bane"
 
 notifikation:
   # Send kun besked om tider, der starter mindst så mange timer ude i fremtiden
