@@ -1,0 +1,687 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tennisbane-agent//DA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Ledige baner i Rundforbi Tennishal, som passer ind i din kale
+ nder. Book selv.
+X-WR-CALNAME:Ledige tennisbaner
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+X-WR-TIMEZONE:Europe/Copenhagen
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 20:30–23:00 ⭐
+DTSTART:20261019T183000Z
+DTEND:20261019T210000Z
+DTSTAMP:20261019T180335Z
+UID:20261019T2030-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 20:30 ⭐\, 2
+ 1:00 ⭐\, 21:30\, 22:00\n⭐ = prime time\n\nBook selv her: https://rundf
+ orbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:30
+DTSTART:20261020T033000Z
+DTEND:20261020T063000Z
+DTSTAMP:20261019T180335Z
+UID:20261020T0530-0830@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\n⭐ = prime time\n\nBook selv her: https://rundf
+ orbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 22:00–23:00
+DTSTART:20261020T200000Z
+DTEND:20261020T210000Z
+DTSTAMP:20261019T180335Z
+UID:20261020T2200-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 22:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–09:00
+DTSTART:20261021T033000Z
+DTEND:20261021T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261021T0530-0900@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\n⭐ = prime time\n\nBook selv her: https
+ ://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 2
+ 0:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–07:00
+DTSTART:20261022T033000Z
+DTEND:20261022T050000Z
+DTSTAMP:20261019T180335Z
+UID:20261022T0530-0700@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \n⭐ = prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlo
+ ok/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 21:00–23:00 ⭐
+DTSTART:20261022T190000Z
+DTEND:20261022T210000Z
+DTSTAMP:20261019T180335Z
+UID:20261022T2100-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 21:00 ⭐\, 2
+ 1:30\, 22:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.halbook
+ ing.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–07:30
+DTSTART:20261023T033000Z
+DTEND:20261023T053000Z
+DTSTAMP:20261019T180335Z
+UID:20261023T0530-0730@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\n⭐ = prime time\n\nBook selv her: https://rundforbi.halbooking.
+ dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261024T033000Z
+DTEND:20261024T060000Z
+DTSTAMP:20261019T180335Z
+UID:20261024T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261025T043000Z
+DTEND:20261025T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261025T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 09:00–10:00 ⭐
+DTSTART:20261025T080000Z
+DTEND:20261025T090000Z
+DTSTAMP:20261019T180335Z
+UID:20261025T0900-1000@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 09:00 ⭐\n
+ ⭐ = prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook
+ /proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 20:30–23:00
+DTSTART:20261025T193000Z
+DTEND:20261025T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261025T2030-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 20:30\, 21:00
+ \, 21:30\, 22:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–10:00
+DTSTART:20261026T043000Z
+DTEND:20261026T090000Z
+DTSTAMP:20261019T180335Z
+UID:20261026T0530-1000@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\, 09:00\n⭐ = prime time\n\nBook selv he
+ r: https://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.1
+ 0.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 22:00–23:00
+DTSTART:20261026T210000Z
+DTEND:20261026T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261026T2200-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 22:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–09:00
+DTSTART:20261027T043000Z
+DTEND:20261027T080000Z
+DTSTAMP:20261019T180335Z
+UID:20261027T0530-0900@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\n⭐ = prime time\n\nBook selv her: https
+ ://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 2
+ 0:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 22:00–23:00
+DTSTART:20261027T210000Z
+DTEND:20261027T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261027T2200-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 22:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–09:00
+DTSTART:20261028T043000Z
+DTEND:20261028T080000Z
+DTSTAMP:20261019T180335Z
+UID:20261028T0530-0900@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\n⭐ = prime time\n\nBook selv her: https
+ ://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 2
+ 0:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–07:00
+DTSTART:20261029T043000Z
+DTEND:20261029T060000Z
+DTSTAMP:20261019T180335Z
+UID:20261029T0530-0700@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \n⭐ = prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlo
+ ok/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 09:00–10:00
+DTSTART:20261029T080000Z
+DTEND:20261029T090000Z
+DTSTAMP:20261019T180335Z
+UID:20261029T0900-1000@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 09:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 21:30–23:00
+DTSTART:20261029T203000Z
+DTEND:20261029T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261029T2130-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 21:30\, 22:00
+ \n⭐ = prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlo
+ ok/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261030T043000Z
+DTEND:20261030T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261030T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 09:00–10:00
+DTSTART:20261030T080000Z
+DTEND:20261030T090000Z
+DTSTAMP:20261019T180335Z
+UID:20261030T0900-1000@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 09:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261031T043000Z
+DTEND:20261031T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261031T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261101T043000Z
+DTEND:20261101T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261101T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 20:30–23:00
+DTSTART:20261101T193000Z
+DTEND:20261101T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261101T2030-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 20:30\, 21:00
+ \, 21:30\, 22:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–10:00
+DTSTART:20261102T043000Z
+DTEND:20261102T090000Z
+DTSTAMP:20261019T180335Z
+UID:20261102T0530-1000@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\, 09:00\n⭐ = prime time\n\nBook selv he
+ r: https://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.1
+ 0.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 22:00–23:00
+DTSTART:20261102T210000Z
+DTEND:20261102T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261102T2200-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 22:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–09:00
+DTSTART:20261103T043000Z
+DTEND:20261103T080000Z
+DTSTAMP:20261019T180335Z
+UID:20261103T0530-0900@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\n⭐ = prime time\n\nBook selv her: https
+ ://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 2
+ 0:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 22:00–23:00
+DTSTART:20261103T210000Z
+DTEND:20261103T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261103T2200-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 22:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–09:00
+DTSTART:20261104T043000Z
+DTEND:20261104T080000Z
+DTSTAMP:20261019T180335Z
+UID:20261104T0530-0900@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\n⭐ = prime time\n\nBook selv her: https
+ ://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 2
+ 0:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–07:00
+DTSTART:20261105T043000Z
+DTEND:20261105T060000Z
+DTSTAMP:20261019T180335Z
+UID:20261105T0530-0700@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \n⭐ = prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlo
+ ok/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 09:00–10:00
+DTSTART:20261105T080000Z
+DTEND:20261105T090000Z
+DTSTAMP:20261019T180335Z
+UID:20261105T0900-1000@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 09:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 21:30–23:00
+DTSTART:20261105T203000Z
+DTEND:20261105T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261105T2130-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 21:30\, 22:00
+ \n⭐ = prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlo
+ ok/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261106T043000Z
+DTEND:20261106T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261106T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261107T043000Z
+DTEND:20261107T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261107T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 19:00–23:00
+DTSTART:20261107T180000Z
+DTEND:20261107T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261107T1900-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 19:00\, 19:30
+ \, 20:00\, 20:30\, 21:00\, 21:30\, 22:00\n⭐ = prime time\n\nBook selv he
+ r: https://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.1
+ 0.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261108T043000Z
+DTEND:20261108T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261108T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 20:30–23:00
+DTSTART:20261108T193000Z
+DTEND:20261108T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261108T2030-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 20:30\, 21:00
+ \, 21:30\, 22:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–10:00
+DTSTART:20261109T043000Z
+DTEND:20261109T090000Z
+DTSTAMP:20261019T180335Z
+UID:20261109T0530-1000@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\, 09:00\n⭐ = prime time\n\nBook selv he
+ r: https://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.1
+ 0.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 22:00–23:00
+DTSTART:20261109T210000Z
+DTEND:20261109T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261109T2200-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 22:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–09:00
+DTSTART:20261110T043000Z
+DTEND:20261110T080000Z
+DTSTAMP:20261019T180335Z
+UID:20261110T0530-0900@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\n⭐ = prime time\n\nBook selv her: https
+ ://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 2
+ 0:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 22:00–23:00
+DTSTART:20261110T210000Z
+DTEND:20261110T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261110T2200-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 22:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–09:00
+DTSTART:20261111T043000Z
+DTEND:20261111T080000Z
+DTSTAMP:20261019T180335Z
+UID:20261111T0530-0900@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\n⭐ = prime time\n\nBook selv her: https
+ ://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 2
+ 0:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–07:00
+DTSTART:20261112T043000Z
+DTEND:20261112T060000Z
+DTSTAMP:20261019T180335Z
+UID:20261112T0530-0700@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \n⭐ = prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlo
+ ok/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 09:00–10:00
+DTSTART:20261112T080000Z
+DTEND:20261112T090000Z
+DTSTAMP:20261019T180335Z
+UID:20261112T0900-1000@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 09:00\n⭐ = 
+ prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook/proc_
+ baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 21:30–23:00
+DTSTART:20261112T203000Z
+DTEND:20261112T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261112T2130-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 21:30\, 22:00
+ \n⭐ = prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlo
+ ok/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261113T043000Z
+DTEND:20261113T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261113T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261114T043000Z
+DTEND:20261114T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261114T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 14:30–15:30 ⭐
+DTSTART:20261114T133000Z
+DTEND:20261114T143000Z
+DTSTAMP:20261019T180335Z
+UID:20261114T1430-1530@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 14:30 ⭐\n
+ ⭐ = prime time\n\nBook selv her: https://rundforbi.halbooking.dk/newlook
+ /proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–08:00
+DTSTART:20261115T043000Z
+DTEND:20261115T070000Z
+DTSTAMP:20261019T180335Z
+UID:20261115T0530-0800@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 20:30–23:00
+DTSTART:20261115T193000Z
+DTEND:20261115T220000Z
+DTSTAMP:20261019T180335Z
+UID:20261115T2030-2300@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 20:30\, 21:00
+ \, 21:30\, 22:00\n⭐ = prime time\n\nBook selv her: https://rundforbi.hal
+ booking.dk/newlook/proc_baner.asp\nOpdateret: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎾 Ledig bane 05:30–10:00
+DTSTART:20261116T043000Z
+DTEND:20261116T090000Z
+DTSTAMP:20261019T180335Z
+UID:20261116T0530-1000@tennisbane-agent
+DESCRIPTION:Rundforbi Tennishal\nMulige starttider (60 min): 05:30\, 06:00
+ \, 06:30\, 07:00\, 07:30\, 08:00\, 08:30\, 09:00\n⭐ = prime time\n\nBook
+  selv her: https://rundforbi.halbooking.dk/newlook/proc_baner.asp\nOpdater
+ et: 19.10.2026 20:03
+LOCATION:Rundforbivej 140 B\, 2850 Nærum
+TRANSP:TRANSPARENT
+URL:https://rundforbi.halbooking.dk/newlook/proc_baner.asp
+END:VEVENT
+END:VCALENDAR
