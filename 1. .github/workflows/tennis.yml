@@ -1,0 +1,47 @@
+name: Tennisbane-agent
+
+on:
+  schedule:
+    # Fire gange i døgnet (tider i UTC = dansk tid minus 1-2 timer):
+    # ca. kl. 06, 12, 18 og 24 dansk sommertid
+    - cron: "17 4,10,16,22 * * *"
+  workflow_dispatch: {}   # giver en "Run workflow"-knap, så du kan køre den manuelt
+
+permissions:
+  contents: write         # så agenten kan gemme kalenderfeed og tabel i repoet
+
+concurrency:
+  group: tennisbane-agent
+  cancel-in-progress: false
+
+jobs:
+  find-baner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Hent koden
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer pakker
+        run: pip install -r requirements.txt
+
+      - name: Find ledige baner
+        env:
+          ICLOUD_USERNAME: ${{ secrets.ICLOUD_USERNAME }}
+          ICLOUD_APP_PASSWORD: ${{ secrets.ICLOUD_APP_PASSWORD }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python tennis_agent.py
+
+      - name: Gem kalenderfeed og tabel
+        run: |
+          git config user.name "tennisbane-agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs data
+          git diff --staged --quiet || git commit -m "Opdater ledige baner"
+          git pushx
