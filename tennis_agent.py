@@ -223,6 +223,7 @@ def hent_optaget_tid(kcfg: dict, fra: datetime, til: datetime):
 
     ignorerede = {n.strip().lower() for n in kcfg.get("ignorer_kalendere", [])}
     ignorer_heldag = bool(kcfg.get("ignorer_heldagsbegivenheder", True))
+    uden_buffer = {n.strip().lower() for n in kcfg.get("uden_buffer_kalendere", [])}
     optaget = []
     client = caldav.DAVClient(url="https://caldav.icloud.com/", username=bruger,
                               password=kode, features="icloud", timeout=60)
@@ -236,6 +237,7 @@ def hent_optaget_tid(kcfg: dict, fra: datetime, til: datetime):
             navn = ""
         if navn.strip().lower() in ignorerede:
             continue
+        brug_buffer = navn.strip().lower() not in uden_buffer
         try:
             fund = kal.search(start=fra, end=til, event=True, expand=True)
         except Exception as e:  # fx påmindelseslister, som ikke indeholder begivenheder
@@ -245,15 +247,20 @@ def hent_optaget_tid(kcfg: dict, fra: datetime, til: datetime):
             for ve in obj.icalendar_instance.walk("VEVENT"):
                 tr = begivenhed_tidsrum(ve, ignorer_heldag)
                 if tr:
-                    optaget.append(tr)
+                    optaget.append((tr[0], tr[1], brug_buffer))
     print(f"Læste {len(optaget)} optagede tidsrum fra {len(kalendere)} iCloud-kalendere.")
     return optaget
 
 
 def har_konflikt(s: Slot, optaget, buffer_min: int) -> bool:
+    """optaget = (start, slut, brug_buffer). Kalendere uden buffer (fx Træning)
+    må gerne ligge lige op ad tennistiden, men må ikke overlappe."""
     buf = timedelta(minutes=buffer_min)
-    a, b = s.start - buf, s.end + buf
-    return any(overlapper(a, b, o_start, o_slut) for o_start, o_slut in optaget)
+    for o_start, o_slut, brug_buffer in optaget:
+        b = buf if brug_buffer else timedelta(0)
+        if overlapper(s.start - b, s.end + b, o_start, o_slut):
+            return True
+    return False
 
 
 # ───────────────────── 4. Output: kalenderfeed (ICS) ─────────────────────
@@ -292,24 +299,23 @@ def lav_ics(slots: list[Slot], cfg: dict, nu: datetime) -> bytes:
     for blok in saml_blokke(slots):
         start = min(s.start for s in blok)
         slut = max(s.end for s in blok)
-        prime = any(s.prime for s in blok)
-        starttider = ", ".join(kl(s.start) + (" ⭐" if s.prime else "") for s in blok)
+        starttider = ", ".join(kl(s.start) for s in blok)
         ev = Event()
         ev.add("uid", f"{start.strftime('%Y%m%dT%H%M')}-{slut.strftime('%H%M')}@tennisbane-agent")
         ev.add("dtstamp", nu.astimezone(timezone.utc))
-        ev.add("dtstart", start.astimezone(timezone.utc))
-        ev.add("dtend", slut.astimezone(timezone.utc))
-        ev.add("summary", f"🎾 Ledig bane {kl(start)}–{kl(slut)}" + (" ⭐" if prime else ""))
+        ev.add("dtstart", start.astimezone(TZ))
+        ev.add("dtend", slut.astimezone(TZ))
+        ev.add("summary", cfg.get("kalender", {}).get("titel", "Ledig bane"))
         ev.add("description",
                f"{cfg['hal']['navn']}\n"
-               f"Mulige starttider ({blok[0].minutter} min): {starttider}\n"
-               f"⭐ = prime time\n\n"
+               f"Mulige starttider ({blok[0].minutter} min): {starttider}\n\n"
                f"Book selv her: {cfg['hal']['url']}\n"
                f"Opdateret: {nu.strftime('%d.%m.%Y %H:%M')}")
         ev.add("location", cfg["hal"].get("adresse", cfg["hal"]["navn"]))
         ev.add("url", cfg["hal"]["url"])
         ev.add("transp", "TRANSPARENT")  # gør dig ikke "optaget"
         cal.add_component(ev)
+    cal.add_missing_timezones()  # dansk tid i stedet for UTC, så Kalender ikke viser "GMT"
     return cal.to_ical()
 
 
@@ -440,8 +446,8 @@ def main() -> None:
     horisont = nu + timedelta(days=int(cfg["filtre"]["dage_frem"]))
     if args.optaget_fil:
         raa = json.loads(Path(args.optaget_fil).read_text(encoding="utf-8"))
-        optaget = [(til_aware(datetime.fromisoformat(a)), til_aware(datetime.fromisoformat(b)))
-                   for a, b in raa]
+        optaget = [(til_aware(datetime.fromisoformat(r[0])), til_aware(datetime.fromisoformat(r[1])),
+                    bool(r[2]) if len(r) > 2 else True) for r in raa]
     else:
         optaget = hent_optaget_tid(cfg.get("kalender", {}), nu - timedelta(days=1),
                                    horisont + timedelta(days=1))
