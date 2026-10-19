@@ -24,8 +24,8 @@ filtre:
   ugedage: [man, tir, ons, tor, fre, lør, søn]
 
   # Tidligste starttid og seneste sluttid, du overhovedet vil spille
-  tidligste_start: "06:00"
-  seneste_slut: "23:30"
+  tidligste_start: "06:30"
+  seneste_slut: "23:00"
 
   # Tidsrum hvor du ALDRIG kan spille (en bane der rører tidsrummet frasorteres)
   blokeret:
